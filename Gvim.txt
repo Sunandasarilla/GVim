@@ -1,0 +1,92 @@
+#Insert  text before the cursor
+i
+
+#Insert the text at the beginning of the current line
+I
+
+#save the file
+w:
+
+#quit 
+:q
+
+#quit without saving
+q!
+
+#save and quit
+:wq
+
+Note: If you find [+] sign after the file name then the file is not saved
+
+#setting line numbers
+:set nu
+
+#to go to the nth line
+:n
+EX::50 #goes to the 50th line
+
+#to highlight a syntax
+:setf vera
+
+#NAVIGATION COMMANDS
+
+#move left
+h
+Ex:5h #move 5 characters left side, it considers spaces
+
+#move down 
+j
+Ex:5j #move 5 lines down
+
+#move up
+k
+Ex:5k #move 5 lines up
+
+#move right 
+l
+Ex:5l #move 5 characters right side
+
+#go to the beginning of the file
+gg
+
+#go to the ending of the file
+G
+
+#copy a line (Yank)
+yy
+
+#copy 'n' no of lines
+nyy
+
+#copy a word
+yw
+
+#paste after the cursor
+p
+
+#paste before the cursor
+P
+
+#paste 'n' number of times
+np
+
+#DELETION COMMANDS
+
+#delete the character under the cursor
+x
+
+#delete a word
+dw
+
+#delete an entire line
+dd
+
+#delete from cursor to end of the line
+d$
+
+#delete from cursor to beginning of the file
+dgg
+
+#delete from cursor to end of the file 
+dG
+
