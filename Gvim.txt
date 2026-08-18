@@ -90,3 +90,11 @@ dgg
 #delete from cursor to end of the file 
 dG
 
+#Highlight
+#highlight search terms
+set hlsearch
+
+#show search matches as you type
+set incsearch
+
+#
